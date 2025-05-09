@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: white; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #882222; 
+    padding: 10px 0;
+  
+    text-align: center;
+}
+
+nav a {
+    color: white; 
+  
+    padding: 6px 10px;
+  
+}
+
+
+
+
+
+header {
+    background-color: #d32f2f; 
+    color: white;
+    padding: 80px 20px 20px; 
+}
+
+header img {
+    width: 160px;
+    height: 180px;
+}
+
+h1 {
+    color: #f7f7f7; 
+    font-size: 30px;
+    margin: 20px 0;
+    
+}
+h2 {
+    color: #a71818; 
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333; 
+}
+
+form {
+    width: 60%; 
+    margin: 100px auto 20px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+main {
+    padding-top: 120px; 
+}
